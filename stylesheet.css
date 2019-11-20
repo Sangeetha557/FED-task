@@ -1,13 +1,13 @@
 ul{
     overflow:hidden;
 }
-li{
-   display:inline-block;
+/* li{
+   display:block;
   margin-left: 10px;
-}
+} */
 div{
   display: block;
-  border: 1px solid black;
+  border: 0.5px solid black;
 }
 .header{
       padding: 10px;
@@ -16,8 +16,7 @@ div{
   }
 .navg{
       padding: 10px;
-      font-size: 20px;
-      
+      font-size: 20px;  
   }
 .list,.left li:hover > a{
       color:#be5b70;
@@ -36,12 +35,8 @@ div{
 }
 
   .list2{
-              width:160%;
-              padding:5px 0px;
-              position:absolute;
-              top:100%;
-              left:0px;
-              display: none;
+    display: none;
+    position: absolute;
   }
 
   .list2 li{
@@ -73,49 +68,38 @@ div{
         height: 110%;
       }
       
- .container{
-    position: relative;
-    width: 1125px;
-    height: 300px;
-    padding: 100px;
- }
- .leftnav li {
-    display: block;
-    padding: 5px;
-    text-decoration: none;
-}
- .left {
-    float: left;
-    min-height: 230px;
-    margin-right: 25px;
-    width: 250px;
-}
+        .container{
+           position: relative;
+           width: 1125px;
+           height: 300px;
+           padding: 100px;
+      }
+        .leftnav li {
+          display: block;
+          padding: 5px;
+          text-decoration: none;
+      }
+        .left {
+          float: left;
+          min-height: 230px;
+          margin-right: 25px;
+          width: 250px;
+        }
 
-.right {
-    float: left;
-    border: 0ch;
-}
-.images{
-    display:inline-block;
-    padding: 15px;
-    width: 1317%;
-    border: 0cm;   
-}
-.images::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  footer{
-      background-color:grey;
-      color: white;
-      bottom: 1%;
-      width: 100%;
-      left:0;
-  }
-  footer>a{
-      float: right;
-  }
-  .footer li{
-      display: block;
-  }
+        .right {
+          float: left;
+          border: 0ch;
+        }
+        .images li{
+          display:inline-block;
+          width: 1317%;
+          border: 0cm;  
+          transform: rotateY(180deg);
+         }
+        /* .images li img:hover {
+          -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+        } */
+         
+        
+        
