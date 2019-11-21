@@ -1,84 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-            <link  rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <style>
-            ul{
-                  overflow:hidden;
-              }
-            li{
-                 display:inline-block;
-                margin-left: 10px;
-            }
-            div{
-                display: block;
-                border: 1px solid black;
-            }
-            .header{
-                    padding: 10px;
-                    font-size: 20px;
-                    
-                }
-              .navg{
-                    padding: 10px;
-                    font-size: 20px;
-                    
-                }
-              .list li:hover > a{
-	                color:#be5b70;
-                }
-
-             .list .arrow {
-	                font-size:11px;
-	                line-height:0%;
-            }
-
-
-            .list > ul > li > a {
-	                padding:10px 40px;
-	                display:inline-block;
-                    text-decoration: none;
-            }
-            
-                .list2 {
-                        	width:160%;
-                        	padding:5px 0px;
-	                        position:absolute;
-	                        top:100%;
-	                        left:0px;
-                            display: none;
-                }
-
-                .list2 li {
-	                            display:block;
-	                            font-size:16px;
-                }
-
-                .list2 li a {
-	                            padding:10px 30px;
-	                            display:block;
-                                text-decoration: none;
-                }
-                
-                ul.list1 li:hover ul.list2{
-                     display: block;
-                     position: relative;
-                     }
-                footer{
-                    background-color:grey;
-                    color: white;
-                    position: fixed;
-                    bottom: 1%;
-                    width: 100%;
-                    left:0;
-                }
-                footer>a{
-                    float: right;
-                }
-                .footer li{
-                    display: block;
-                }
-        </style>
+            <link  rel="stylesheet" type="text/css" href="stylesheet.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -125,7 +48,34 @@
                         <lable>SPECIAL OFFER!</lable>
                     </ul>
                 </nav>
+            </div><br>
+        
+            <div class="container">
+                <div class="left">
+                    <ul class="leftnav">
+                        <li><a href="#">ALL Catogories</a></li>
+                        <li><a href="#">Accesories<span class="arrow">&#9658;</span></a></li>
+                        <li><a href="#">Bioelectronicss<span class="arrow">&#9658;</span></a></li>
+                        <li><a href="#">Induction</a></li>
+                        <li><a href="#">Night Lamps</a></li>
+                        <li><a href="#">More Catogories</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                     <img src="stock.jpeg" style="width:670px; height:335px"/>
+                </div>
+               
             </div>
+            <br>
+            <div class="images" style="align-items: center;">
+                <nav>
+                    <ul>
+                        <li><img src="https://via.placeholder.com/250"></li>
+                        <li><img src="https://via.placeholder.com/250"></li>
+                        </li><img src="https://via.placeholder.com/250"><li>
+                    </ul>
+               </nav>
+            </div><br>
         </header>
         <footer class="footer">
             <div>
@@ -143,9 +93,7 @@
          <a href="#" class="fa fa-google"></a>
          <a href="#" class="fa fa-linkedin"></a>
          <a href="#" class="fa fa-youtube"></a>
-         
-        </footer>
-        
-        
+
+        </footer>   
     </body>
 </html>
